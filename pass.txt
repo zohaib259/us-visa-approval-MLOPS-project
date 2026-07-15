@@ -1,0 +1,4 @@
+fgXJLtp6FYQCC24o
+zohaib
+
+mongodb+srv://zohaibafridi1234567_db_user:2gHfNtulDg7TQzks@cluster0.63k912j.mongodb.net/?appName=Cluster0
