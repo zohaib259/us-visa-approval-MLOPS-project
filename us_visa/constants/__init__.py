@@ -12,6 +12,10 @@ ARTIFACT_DIR: str = "artifact"
 TRAIN_FILE_NAME = "train.csv"
 TEST_FILE_NAME = "test.csv"
 
+TARGET_COLUMN = "case_status"
+CURRENT_YEAR = date.today().year
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
 FILE_NAME = "usvia.csv"
 MODEL_FILE_NAME = "model.pkl"
 
