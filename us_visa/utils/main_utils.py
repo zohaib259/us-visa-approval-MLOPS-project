@@ -87,7 +87,7 @@ def save_object(file_path: str, obj: object) -> None:
     logging.info("Entered the save_object method of utils")
 
     try:
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        os.makedirs(os.path.dirname(file_path), exist_ok=True) # If the folder ALREADY exists: Python ignores the request smoothly and moves on to the next line of code.
         with open(file_path, "wb") as file_obj:
             dill.dump(obj, file_obj)
 
