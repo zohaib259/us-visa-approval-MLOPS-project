@@ -1,0 +1,262 @@
+:root {
+    --blue: #1a73e8;
+    --blue-hover: #1765cc;
+    --red: #ea4335;
+    --yellow: #fbbc05;
+    --green: #34a853;
+    --ink: #202124;
+    --ink-soft: #5f6368;
+    --line: #dadce0;
+    --surface: #f8f9fa;
+    --white: #ffffff;
+    --radius: 8px;
+  }
+  
+  * { box-sizing: border-box; }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--white);
+    color: var(--ink);
+    font-family: "Roboto", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* ---- top bar ---- */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px;
+  }
+  
+  .wordmark {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    color: var(--ink);
+  }
+  .wordmark span:nth-child(1) { color: var(--blue); }
+  .wordmark span:nth-child(2) { color: var(--red); }
+  .wordmark span:nth-child(3) { color: var(--yellow); }
+  .wordmark span:nth-child(4) { color: var(--blue); }
+  .wordmark span:nth-child(5) { color: var(--green); }
+  .wordmark span:nth-child(6) { color: var(--red); }
+  
+  /* ---- page shell ---- */
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px 64px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 640px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  
+  .accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, var(--blue) 0 25%, var(--red) 25% 50%, var(--yellow) 50% 75%, var(--green) 75% 100%);
+  }
+  
+  .card-body { padding: 40px 40px 32px; }
+  
+  h1 {
+    margin: 0 0 4px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: none;
+  }
+  
+  .subtitle {
+    margin: 0 0 32px;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  
+  /* ---- field grid ---- */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  
+  .field { position: relative; margin-bottom: 28px; }
+  .field.full { grid-column: 1 / -1; }
+  
+  label {
+    position: absolute;
+    left: 12px;
+    top: 14px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    background: var(--white);
+    padding: 0 4px;
+    pointer-events: none;
+    transition: transform .15s ease, font-size .15s ease, color .15s ease, top .15s ease;
+    transform-origin: left top;
+  }
+  
+  .control {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--ink);
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    outline: none;
+    appearance: none;
+    transition: border-color .15s ease, box-shadow .15s ease;
+  }
+  
+  select.control { cursor: pointer; }
+  
+  /* custom dropdown chevron */
+  select.control {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path fill='%235f6368' d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 34px;
+  }
+  
+  .control:hover { border-color: #b0b3b8; }
+  
+  .control:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 1px var(--blue);
+  }
+  
+  .control:focus + label,
+  .control:not(:placeholder-shown) + label,
+  select.control:not([data-empty="true"]) + label {
+    top: -9px;
+    font-size: 12px;
+    transform: none;
+  }
+  
+  .control:focus + label { color: var(--blue); }
+  
+  .hint {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    padding-left: 12px;
+  }
+  
+  /* ---- submit ---- */
+  .submit {
+    width: 100%;
+    height: 44px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 4px;
+    background: var(--blue);
+    color: var(--white);
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    cursor: pointer;
+    transition: background .15s ease, box-shadow .15s ease;
+  }
+  
+  .submit:hover { background: var(--blue-hover); box-shadow: 0 1px 3px rgba(60,64,67,.3); }
+  .submit:active { background: #185abc; }
+  
+  /* ---- result ---- */
+  .result {
+    margin-top: 24px;
+    padding: 40px 20px;
+  }
+  
+  .result-inner {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 24px;
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  
+  .result-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: var(--ink-soft);
+    margin: 0 0 8px;
+  }
+  
+  .result-value {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0;
+  }
+  
+  @media (max-width: 560px) {
+    .grid { grid-template-columns: 1fr; }
+    .card-body { padding: 28px 20px 24px; }
+  }
+
+  /* ---- Floating Popup (Toast) ---- */
+.toast-popup {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: var(--radius);
+    padding: 16px 32px;
+    text-align: center;
+    min-width: 280px;
+    
+    /* Entrance animation: slide down and fade in */
+    animation: slideDown 0.4s ease-out forwards;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .toast-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--ink-soft);
+    margin: 0 0 4px 0;
+  }
+  
+  .toast-value {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0;
+  }
+  
+  /* Exit class toggled by JS after 5 seconds */
+  .toast-popup.hide {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+    pointer-events: none;
+  }
+  
+  /* Entrance Keyframes */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -20px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }

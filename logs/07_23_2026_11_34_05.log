@@ -1,0 +1,461 @@
+[ 2026-07-23 11:34:11,981 ] asyncio - DEBUG - Using proactor: IocpProactor
+[ 2026-07-23 11:34:17,134 ] asyncio - DEBUG - Using proactor: IocpProactor
+[ 2026-07-23 11:35:18,712 ] root - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:35:18,712 ] root - INFO - Created usvisa data dict
+[ 2026-07-23 11:35:18,714 ] root - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:35:18,717 ] root - INFO - Entered predict method of USvisaClassifier class
+[ 2026-07-23 11:35:18,722 ] botocore.hooks - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[ 2026-07-23 11:35:18,735 ] botocore.hooks - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+[ 2026-07-23 11:35:18,740 ] botocore.hooks - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[ 2026-07-23 11:35:18,745 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[ 2026-07-23 11:35:18,746 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[ 2026-07-23 11:35:18,752 ] botocore.hooks - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[ 2026-07-23 11:35:18,870 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+[ 2026-07-23 11:35:18,875 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\endpoints.json
+[ 2026-07-23 11:35:18,921 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\sdk-default-configuration.json
+[ 2026-07-23 11:35:18,922 ] botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002B640D1FC40>
+[ 2026-07-23 11:35:19,032 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+[ 2026-07-23 11:35:19,067 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+[ 2026-07-23 11:35:19,170 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+[ 2026-07-23 11:35:19,190 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\partitions.json
+[ 2026-07-23 11:35:19,193 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002B640C9AB60>
+[ 2026-07-23 11:35:19,193 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71D6C0>
+[ 2026-07-23 11:35:19,195 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002B640C9A8E0>
+[ 2026-07-23 11:35:19,196 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_service
+[ 2026-07-23 11:35:19,197 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_global
+[ 2026-07-23 11:35:19,198 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_service
+[ 2026-07-23 11:35:19,198 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_global
+[ 2026-07-23 11:35:19,198 ] botocore.configprovider - DEBUG - No configured endpoint found.
+[ 2026-07-23 11:35:19,201 ] botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+[ 2026-07-23 11:35:19,216 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\_retry.json
+[ 2026-07-23 11:35:19,216 ] botocore.client - DEBUG - Registering retry handlers for service: s3
+[ 2026-07-23 11:35:19,229 ] botocore.utils - DEBUG - Registering S3 region redirector handler
+[ 2026-07-23 11:35:19,229 ] botocore.utils - DEBUG - Registering S3Express Identity Resolver
+[ 2026-07-23 11:35:19,230 ] boto3.resources.factory - DEBUG - Loading s3:s3
+[ 2026-07-23 11:35:19,232 ] botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002B640D1FC40>
+[ 2026-07-23 11:35:19,232 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002B640C9AB60>
+[ 2026-07-23 11:35:19,232 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71D6C0>
+[ 2026-07-23 11:35:19,232 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002B640C9A8E0>
+[ 2026-07-23 11:35:19,232 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_service
+[ 2026-07-23 11:35:19,232 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_global
+[ 2026-07-23 11:35:19,232 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_service
+[ 2026-07-23 11:35:19,232 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_global
+[ 2026-07-23 11:35:19,232 ] botocore.configprovider - DEBUG - No configured endpoint found.
+[ 2026-07-23 11:35:19,232 ] botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+[ 2026-07-23 11:35:19,232 ] botocore.client - DEBUG - Registering retry handlers for service: s3
+[ 2026-07-23 11:35:19,232 ] botocore.utils - DEBUG - Registering S3 region redirector handler
+[ 2026-07-23 11:35:19,232 ] botocore.utils - DEBUG - Registering S3Express Identity Resolver
+[ 2026-07-23 11:35:19,248 ] root - INFO - Entered the load_model method of S3Operations class
+[ 2026-07-23 11:35:19,248 ] root - INFO - Entered the get_file_object method of S3Operations class
+[ 2026-07-23 11:35:19,248 ] root - INFO - Entered the get_bucket method of S3Operations class
+[ 2026-07-23 11:35:19,248 ] boto3.resources.factory - DEBUG - Loading s3:Bucket
+[ 2026-07-23 11:35:19,248 ] boto3.resources.model - DEBUG - Renaming Bucket attribute name
+[ 2026-07-23 11:35:19,250 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71DF80>
+[ 2026-07-23 11:35:19,250 ] root - INFO - Exited the get_bucket method of S3Operations class
+[ 2026-07-23 11:35:19,345 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\paginators-1.json
+[ 2026-07-23 11:35:19,345 ] botocore.loaders - DEBUG - Loading JSON file: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\paginators-1.sdk-extras.json
+[ 2026-07-23 11:35:19,346 ] boto3.resources.collection - DEBUG - Calling paginated s3:list_objects with {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}
+[ 2026-07-23 11:35:19,347 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000002B640D272E0>
+[ 2026-07-23 11:35:19,347 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:35:19,349 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:19,351 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Prefix': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:35:19,351 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:35:19,351 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:35:19,351 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:35:19,351 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'prefix': 'model.pkl', 'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:19,351 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:35:19,351 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/
+encoding-type=url&prefix=model.pkl
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T063519Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:35:19,351 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T063519Z
+20260723/eu-north-1/s3/aws4_request
+4107629862b0658fc369a0d09f19a7ef395d869ac340479b8a1855af9dd911f2
+[ 2026-07-23 11:35:19,351 ] botocore.auth - DEBUG - Signature:
+10521a0eb0245b48fda9827737e0536e55ddd8dd7945fed834cfeead06bbf35a
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:35:19,351 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:35:19,351 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url, headers={'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T063519Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=10521a0eb0245b48fda9827737e0536e55ddd8dd7945fed834cfeead06bbf35a', 'amz-sdk-invocation-id': b'aeb9a216-47a1-4598-97ef-2c240cf8f73a', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:35:19,351 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:35:19,351 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443
+[ 2026-07-23 11:35:20,873 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /?prefix=model.pkl&encoding-type=url HTTP/1.1" 200 None
+[ 2026-07-23 11:35:20,873 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:35:20,873 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:35:20,873 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'WErW823qYX+NYjgTOw4MhqWylCQ4bYhdNtZu7kNLq2YvH/JHCratfSEgBnFkWh3qOC7PNLZQVYU=', 'x-amz-request-id': '8JMT2T18PJQQPNHJ', 'Date': 'Thu, 23 Jul 2026 06:35:23 GMT', 'x-amz-bucket-region': 'eu-north-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:35:20,873 ] botocore.parsers - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>usvisa-model-x-2026</Name><Prefix>model.pkl</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>model.pkl</Key><LastModified>2026-07-22T12:39:31.000Z</LastModified><ETag>&quot;bb0c3697b3bdd80bb6f07fff338bc9c6&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>54242</Size><Owner><ID>61eb3d72ba6d2cfaa9bfd918cceabf6cfb52c53396a66d6786188c9432dbba33</ID></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>'
+[ 2026-07-23 11:35:20,889 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:35:20,889 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:35:20,889 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:35:20,889 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:20,889 ] botocore.hooks - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000002B640D27380>
+[ 2026-07-23 11:35:20,891 ] boto3.resources.factory - DEBUG - Loading s3:ObjectSummary
+[ 2026-07-23 11:35:20,891 ] boto3.resources.model - DEBUG - Renaming ObjectSummary attribute key
+[ 2026-07-23 11:35:20,891 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.ObjectSummary: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71E0C0>
+[ 2026-07-23 11:35:20,893 ] root - INFO - Exited the get_file_object method of S3Operations class
+[ 2026-07-23 11:35:20,893 ] root - INFO - Entered the read_object method of S3Operations class
+[ 2026-07-23 11:35:20,893 ] root - INFO - Exited the read_object method of S3Operations class
+[ 2026-07-23 11:35:20,893 ] boto3.resources.action - DEBUG - Calling s3:get_object with {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000002B640D25EE0>
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:35:20,893 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:35:20,895 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:35:20,895 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:35:20,895 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:20,895 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:35:20,895 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:35:20,895 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:35:20,895 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:35:20,897 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:35:20,897 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:20,897 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:35:20,897 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:35:20,897 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/model.pkl', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/model.pkl', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256', 'sha512']}}}
+[ 2026-07-23 11:35:20,898 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:35:20,899 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:35:20,899 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:35:20,899 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:35:20,899 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:20,900 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:35:20,900 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/model.pkl
+
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T063520Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:35:20,900 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T063520Z
+20260723/eu-north-1/s3/aws4_request
+87cdb2db74d1735f7bcfc0aa81f13ea6afe88402c026032b9dcbc152d0d4169b
+[ 2026-07-23 11:35:20,900 ] botocore.auth - DEBUG - Signature:
+67ae0b5a8a79f678a18f1622d24a8eb5707299020835fc10e8dce1040160f957
+[ 2026-07-23 11:35:20,901 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:35:20,901 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:35:20,901 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T063520Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=67ae0b5a8a79f678a18f1622d24a8eb5707299020835fc10e8dce1040160f957', 'amz-sdk-invocation-id': b'cfb36c33-a036-48c9-a988-c3e4d597c0cb', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:35:20,902 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:35:21,102 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /model.pkl HTTP/1.1" 200 54242
+[ 2026-07-23 11:35:21,104 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:35:21,105 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:35:21,105 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': '1tDkD/rMEO2lcNYfpFKpF5qIEUEzGR4boMYTZgWbz49WQwIOyAYH7GCotLHqDlteg8eEAdwtkiI=', 'x-amz-request-id': '8JMV9JT1E3XVK5MM', 'Date': 'Thu, 23 Jul 2026 06:35:23 GMT', 'Last-Modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '54242', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:35:21,105 ] botocore.parsers - DEBUG - Response body:
+<botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D3A0310>
+[ 2026-07-23 11:35:21,108 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:35:21,109 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:35:21,109 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:35:21,109 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:21,110 ] boto3.resources.action - DEBUG - Response: {'ResponseMetadata': {'RequestId': '8JMV9JT1E3XVK5MM', 'HostId': '1tDkD/rMEO2lcNYfpFKpF5qIEUEzGR4boMYTZgWbz49WQwIOyAYH7GCotLHqDlteg8eEAdwtkiI=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': '1tDkD/rMEO2lcNYfpFKpF5qIEUEzGR4boMYTZgWbz49WQwIOyAYH7GCotLHqDlteg8eEAdwtkiI=', 'x-amz-request-id': '8JMV9JT1E3XVK5MM', 'date': 'Thu, 23 Jul 2026 06:35:23 GMT', 'last-modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'etag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'content-length': '54242', 'server': 'AmazonS3'}, 'ChecksumAlgorithm': 'crc32', 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2026, 7, 22, 12, 39, 31, tzinfo=tzutc()), 'ContentLength': 54242, 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'ChecksumCRC32': 'FLeatg==', 'ChecksumType': 'FULL_OBJECT', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}, 'Body': <botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D3A0310>}
+[ 2026-07-23 11:35:21,291 ] root - INFO - Exited the load_model method of S3Operations class
+[ 2026-07-23 11:35:21,293 ] root - INFO - Entered predict method of UTruckModel class
+[ 2026-07-23 11:35:21,293 ] root - INFO - Using the trained model to get predictions
+[ 2026-07-23 11:35:21,390 ] root - INFO - Used the trained model to get predictions
+[ 2026-07-23 11:35:52,822 ] root - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:35:52,822 ] root - INFO - Created usvisa data dict
+[ 2026-07-23 11:35:52,822 ] root - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:35:52,822 ] root - INFO - Entered predict method of USvisaClassifier class
+[ 2026-07-23 11:35:52,822 ] root - INFO - Entered the load_model method of S3Operations class
+[ 2026-07-23 11:35:52,822 ] root - INFO - Entered the get_file_object method of S3Operations class
+[ 2026-07-23 11:35:52,822 ] root - INFO - Entered the get_bucket method of S3Operations class
+[ 2026-07-23 11:35:52,822 ] boto3.resources.factory - DEBUG - Loading s3:Bucket
+[ 2026-07-23 11:35:52,822 ] boto3.resources.model - DEBUG - Renaming Bucket attribute name
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71DF80>
+[ 2026-07-23 11:35:52,822 ] root - INFO - Exited the get_bucket method of S3Operations class
+[ 2026-07-23 11:35:52,822 ] boto3.resources.collection - DEBUG - Calling paginated s3:list_objects with {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000002B640D272E0>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:35:52,822 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:35:52,834 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:52,834 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Prefix': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:35:52,834 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:35:52,834 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:35:52,834 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:35:52,834 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:35:52,834 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:52,834 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:35:52,836 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'prefix': 'model.pkl', 'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:52,836 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:35:52,836 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/
+encoding-type=url&prefix=model.pkl
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T063552Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:35:52,836 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T063552Z
+20260723/eu-north-1/s3/aws4_request
+de4535b01bdfa1e4e2a7f09b8ce418ed6394ea77ee24c6b4ba7c4b1794a2fe15
+[ 2026-07-23 11:35:52,836 ] botocore.auth - DEBUG - Signature:
+f875e95546cec858b5f32467408eeda788e9cf34ecbad260b8f8c96d4d39037d
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:35:52,836 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:35:52,836 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url, headers={'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T063552Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=f875e95546cec858b5f32467408eeda788e9cf34ecbad260b8f8c96d4d39037d', 'amz-sdk-invocation-id': b'45c46653-eb92-4a78-a811-a9f2af6e1036', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:35:52,836 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:35:52,836 ] urllib3.connectionpool - DEBUG - Resetting dropped connection: usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:35:54,481 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /?prefix=model.pkl&encoding-type=url HTTP/1.1" 200 None
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:35:54,486 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': '9mGLAOl+et7zfbr91k+17je1lLRNi7LwbIULeLKIkC1qiXoNv+BOP/MT2yd4VKq15UKW7JU1uIDLvGHWxwqV/1o/elVfzjTk', 'x-amz-request-id': '2HBNB0Y75PMXX7XD', 'Date': 'Thu, 23 Jul 2026 06:35:57 GMT', 'x-amz-bucket-region': 'eu-north-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:35:54,486 ] botocore.parsers - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>usvisa-model-x-2026</Name><Prefix>model.pkl</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>model.pkl</Key><LastModified>2026-07-22T12:39:31.000Z</LastModified><ETag>&quot;bb0c3697b3bdd80bb6f07fff338bc9c6&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>54242</Size><Owner><ID>61eb3d72ba6d2cfaa9bfd918cceabf6cfb52c53396a66d6786188c9432dbba33</ID></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>'
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:35:54,486 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000002B640D27380>
+[ 2026-07-23 11:35:54,486 ] boto3.resources.factory - DEBUG - Loading s3:ObjectSummary
+[ 2026-07-23 11:35:54,486 ] boto3.resources.model - DEBUG - Renaming ObjectSummary attribute key
+[ 2026-07-23 11:35:54,486 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.ObjectSummary: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71E0C0>
+[ 2026-07-23 11:35:54,486 ] root - INFO - Exited the get_file_object method of S3Operations class
+[ 2026-07-23 11:35:54,495 ] root - INFO - Entered the read_object method of S3Operations class
+[ 2026-07-23 11:35:54,495 ] root - INFO - Exited the read_object method of S3Operations class
+[ 2026-07-23 11:35:54,495 ] boto3.resources.action - DEBUG - Calling s3:get_object with {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}
+[ 2026-07-23 11:35:54,497 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000002B640D25EE0>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:35:54,499 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:54,501 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:35:54,501 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:35:54,501 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:35:54,501 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:35:54,501 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:35:54,501 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:35:54,503 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/model.pkl', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/model.pkl', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256', 'sha512']}}}
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:35:54,503 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:35:54,505 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:35:54,505 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/model.pkl
+
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T063554Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:35:54,505 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T063554Z
+20260723/eu-north-1/s3/aws4_request
+72dce47beaf8800cf944f524f386ee52c7f9857dbc39c1360f11ab1224299b23
+[ 2026-07-23 11:35:54,506 ] botocore.auth - DEBUG - Signature:
+8dde506e4c467c39a4e12359ee4383c8e46a78dc43e066c63d6b898244c95a06
+[ 2026-07-23 11:35:54,506 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:35:54,506 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:35:54,506 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T063554Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=8dde506e4c467c39a4e12359ee4383c8e46a78dc43e066c63d6b898244c95a06', 'amz-sdk-invocation-id': b'bb35569d-cb73-40ba-a577-a2f6c4f279b4', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:35:54,507 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:35:54,703 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /model.pkl HTTP/1.1" 200 54242
+[ 2026-07-23 11:35:54,704 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:35:54,704 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:35:54,704 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'F+H3tdoLiuIdTjmYSQpmngRj765Z1imqTtHjWYuDj1giS9agthdYRn58yVjLzVU4elCxK0r++79M1TZyWB5aErhmA13J6qs6', 'x-amz-request-id': '2HBSC0M25G9B58Z8', 'Date': 'Thu, 23 Jul 2026 06:35:57 GMT', 'Last-Modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '54242', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:35:54,705 ] botocore.parsers - DEBUG - Response body:
+<botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D7DDED0>
+[ 2026-07-23 11:35:54,706 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:35:54,706 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:35:54,706 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:35:54,706 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:35:54,707 ] boto3.resources.action - DEBUG - Response: {'ResponseMetadata': {'RequestId': '2HBSC0M25G9B58Z8', 'HostId': 'F+H3tdoLiuIdTjmYSQpmngRj765Z1imqTtHjWYuDj1giS9agthdYRn58yVjLzVU4elCxK0r++79M1TZyWB5aErhmA13J6qs6', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'F+H3tdoLiuIdTjmYSQpmngRj765Z1imqTtHjWYuDj1giS9agthdYRn58yVjLzVU4elCxK0r++79M1TZyWB5aErhmA13J6qs6', 'x-amz-request-id': '2HBSC0M25G9B58Z8', 'date': 'Thu, 23 Jul 2026 06:35:57 GMT', 'last-modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'etag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'content-length': '54242', 'server': 'AmazonS3'}, 'ChecksumAlgorithm': 'crc32', 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2026, 7, 22, 12, 39, 31, tzinfo=tzutc()), 'ContentLength': 54242, 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'ChecksumCRC32': 'FLeatg==', 'ChecksumType': 'FULL_OBJECT', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}, 'Body': <botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D7DDED0>}
+[ 2026-07-23 11:35:54,888 ] root - INFO - Exited the load_model method of S3Operations class
+[ 2026-07-23 11:35:54,888 ] root - INFO - Entered predict method of UTruckModel class
+[ 2026-07-23 11:35:54,888 ] root - INFO - Using the trained model to get predictions
+[ 2026-07-23 11:35:54,917 ] root - INFO - Used the trained model to get predictions
+[ 2026-07-23 11:41:43,876 ] root - INFO - Entered get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:41:43,876 ] root - INFO - Created usvisa data dict
+[ 2026-07-23 11:41:43,876 ] root - INFO - Exited get_usvisa_data_as_dict method as USvisaData class
+[ 2026-07-23 11:41:43,878 ] root - INFO - Entered predict method of USvisaClassifier class
+[ 2026-07-23 11:41:43,878 ] root - INFO - Entered the load_model method of S3Operations class
+[ 2026-07-23 11:41:43,878 ] root - INFO - Entered the get_file_object method of S3Operations class
+[ 2026-07-23 11:41:43,878 ] root - INFO - Entered the get_bucket method of S3Operations class
+[ 2026-07-23 11:41:43,878 ] boto3.resources.factory - DEBUG - Loading s3:Bucket
+[ 2026-07-23 11:41:43,878 ] boto3.resources.model - DEBUG - Renaming Bucket attribute name
+[ 2026-07-23 11:41:43,880 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71DF80>
+[ 2026-07-23 11:41:43,880 ] root - INFO - Exited the get_bucket method of S3Operations class
+[ 2026-07-23 11:41:43,880 ] boto3.resources.collection - DEBUG - Calling paginated s3:list_objects with {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}
+[ 2026-07-23 11:41:43,880 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000002B640D272E0>
+[ 2026-07-23 11:41:43,880 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:41:43,880 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:41:43,882 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:43,882 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Prefix': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:41:43,882 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:41:43,882 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:41:43,882 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:41:43,884 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'prefix': 'model.pkl', 'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Prefix': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:41:43,884 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:41:43,884 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:41:43,884 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/
+encoding-type=url&prefix=model.pkl
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T064143Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:41:43,884 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T064143Z
+20260723/eu-north-1/s3/aws4_request
+0aced6d76253fd9d5038c42b9d656ac268982e63596cb3179fb0b2ec3825d388
+[ 2026-07-23 11:41:43,886 ] botocore.auth - DEBUG - Signature:
+648316f30c69ec418683c99ffe2158e5f7ca9eba8076dd1f4a5e5ee21c85952f
+[ 2026-07-23 11:41:43,886 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:41:43,886 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:41:43,886 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/?prefix=model.pkl&encoding-type=url, headers={'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,b,C,D,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T064143Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=648316f30c69ec418683c99ffe2158e5f7ca9eba8076dd1f4a5e5ee21c85952f', 'amz-sdk-invocation-id': b'7542a7c5-c0c1-41be-a6d6-acbe34028aa3', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:41:43,886 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:41:43,888 ] urllib3.connectionpool - DEBUG - Resetting dropped connection: usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:41:45,963 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /?prefix=model.pkl&encoding-type=url HTTP/1.1" 200 None
+[ 2026-07-23 11:41:45,963 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:41:45,965 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:41:45,965 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'DjPxslSg+hRs0GsAFGS1rR+uezTPLUJ1caULre4DyKNHM3+8lDF/rxxaXtr7o8PhuZTxbkXeQQzxkDFO2i0F8FsLJA9j+Ssb', 'x-amz-request-id': 'JCWX1N111V14SRQN', 'Date': 'Thu, 23 Jul 2026 06:41:48 GMT', 'x-amz-bucket-region': 'eu-north-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:41:45,965 ] botocore.parsers - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>usvisa-model-x-2026</Name><Prefix>model.pkl</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>model.pkl</Key><LastModified>2026-07-22T12:39:31.000Z</LastModified><ETag>&quot;bb0c3697b3bdd80bb6f07fff338bc9c6&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>54242</Size><Owner><ID>61eb3d72ba6d2cfaa9bfd918cceabf6cfb52c53396a66d6786188c9432dbba33</ID></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>'
+[ 2026-07-23 11:41:45,965 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:41:45,965 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:41:45,965 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:41:45,965 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:45,967 ] botocore.hooks - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000002B640D27380>
+[ 2026-07-23 11:41:45,967 ] boto3.resources.factory - DEBUG - Loading s3:ObjectSummary
+[ 2026-07-23 11:41:45,967 ] boto3.resources.model - DEBUG - Renaming ObjectSummary attribute key
+[ 2026-07-23 11:41:45,967 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.ObjectSummary: calling handler <function lazy_call.<locals>._handler at 0x000002B64C71E0C0>
+[ 2026-07-23 11:41:45,967 ] root - INFO - Exited the get_file_object method of S3Operations class
+[ 2026-07-23 11:41:45,967 ] root - INFO - Entered the read_object method of S3Operations class
+[ 2026-07-23 11:41:45,969 ] root - INFO - Exited the read_object method of S3Operations class
+[ 2026-07-23 11:41:45,969 ] boto3.resources.action - DEBUG - Calling s3:get_object with {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000002B640D25EE0>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000002B640D25E40>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002B640D482C0>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002B64C718EC0>>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000002B640D25C60>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x000002B640D48A40>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002B640D484A0>
+[ 2026-07-23 11:41:45,969 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:45,971 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'usvisa-model-x-2026', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-23 11:41:45,971 ] botocore.regions - DEBUG - Endpoint provider result: https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+[ 2026-07-23 11:41:45,971 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-23 11:41:45,971 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000002B640D26200>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000002B640D24F40>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000002B640D27740>
+[ 2026-07-23 11:41:45,971 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/model.pkl', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource'}, 'body': b'', 'auth_path': '/usvisa-model-x-2026/model.pkl', 'url': 'https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x000002B64C69E1E0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'usvisa-model-x-2026', 'params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'usvisa-model-x-2026', 'Key': 'model.pkl'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256', 'sha512']}}}
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002B64D2A1910>>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000002B640D25940>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000002B640D48400>
+[ 2026-07-23 11:41:45,971 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002B640D48AE0>
+[ 2026-07-23 11:41:45,973 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002B64D2A2B10>>
+[ 2026-07-23 11:41:45,973 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-23 11:41:45,973 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/model.pkl
+
+host:usvisa-model-x-2026.s3.eu-north-1.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260723T064145Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-23 11:41:45,973 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260723T064145Z
+20260723/eu-north-1/s3/aws4_request
+603e8deb5c4a0677c8610ff86a266581026a847c74737f2d8a15e288931cd161
+[ 2026-07-23 11:41:45,973 ] botocore.auth - DEBUG - Signature:
+85eb41daaf97bcec5956f64a81b4736a53bf1766cc0384e9d009b728754e0cb0
+[ 2026-07-23 11:41:45,973 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002B64D2A26C0>>
+[ 2026-07-23 11:41:45,973 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000002B640D48220>
+[ 2026-07-23 11:41:45,973 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com/model.pkl, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.43.44 md/Botocore#1.43.44 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.10 md/pyimpl#CPython m/Z,D,b,e cfg/retry-mode#legacy Botocore/1.43.44 Resource', 'X-Amz-Date': b'20260723T064145Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAYDUAS6HWUA5RW5H2/20260723/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=85eb41daaf97bcec5956f64a81b4736a53bf1766cc0384e9d009b728754e0cb0', 'amz-sdk-invocation-id': b'04b02074-6ede-41ee-8f1c-2ffa60eb043b', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-23 11:41:45,973 ] botocore.httpsession - DEBUG - Certificate path: C:\Users\zohai\AppData\Local\Programs\Python\Python312\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-23 11:41:46,193 ] urllib3.connectionpool - DEBUG - https://usvisa-model-x-2026.s3.eu-north-1.amazonaws.com:443 "GET /model.pkl HTTP/1.1" 200 54242
+[ 2026-07-23 11:41:46,193 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x000002B640D487C0>
+[ 2026-07-23 11:41:46,193 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x000002B640D485E0>
+[ 2026-07-23 11:41:46,193 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'Xi5fgNxjE/bA9G7n4l0dNLwt8UJ5PrGqTxidMtsK6ZAuUn6EeppKhPfcpErRjg13CVneX4KS2wPJC6VnK8kIbQUo7whWgDOM', 'x-amz-request-id': 'JCWYVCSB1BVZR9N3', 'Date': 'Thu, 23 Jul 2026 06:41:48 GMT', 'Last-Modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '54242', 'Server': 'AmazonS3'}
+[ 2026-07-23 11:41:46,194 ] botocore.parsers - DEBUG - Response body:
+<botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D7FDBD0>
+[ 2026-07-23 11:41:46,194 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x000002B640D489A0>
+[ 2026-07-23 11:41:46,195 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002B64D2DB320>
+[ 2026-07-23 11:41:46,195 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-23 11:41:46,195 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B64D2DADB0>>
+[ 2026-07-23 11:41:46,196 ] boto3.resources.action - DEBUG - Response: {'ResponseMetadata': {'RequestId': 'JCWYVCSB1BVZR9N3', 'HostId': 'Xi5fgNxjE/bA9G7n4l0dNLwt8UJ5PrGqTxidMtsK6ZAuUn6EeppKhPfcpErRjg13CVneX4KS2wPJC6VnK8kIbQUo7whWgDOM', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'Xi5fgNxjE/bA9G7n4l0dNLwt8UJ5PrGqTxidMtsK6ZAuUn6EeppKhPfcpErRjg13CVneX4KS2wPJC6VnK8kIbQUo7whWgDOM', 'x-amz-request-id': 'JCWYVCSB1BVZR9N3', 'date': 'Thu, 23 Jul 2026 06:41:48 GMT', 'last-modified': 'Wed, 22 Jul 2026 12:39:31 GMT', 'etag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'x-amz-checksum-crc32': 'FLeatg==', 'x-amz-checksum-type': 'FULL_OBJECT', 'x-amz-server-side-encryption': 'AES256', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'content-length': '54242', 'server': 'AmazonS3'}, 'ChecksumAlgorithm': 'crc32', 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2026, 7, 22, 12, 39, 31, tzinfo=tzutc()), 'ContentLength': 54242, 'ETag': '"bb0c3697b3bdd80bb6f07fff338bc9c6"', 'ChecksumCRC32': 'FLeatg==', 'ChecksumType': 'FULL_OBJECT', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}, 'Body': <botocore.httpchecksum.StreamingChecksumBody object at 0x000002B64D7FDBD0>}
+[ 2026-07-23 11:41:46,377 ] root - INFO - Exited the load_model method of S3Operations class
+[ 2026-07-23 11:41:46,377 ] root - INFO - Entered predict method of UTruckModel class
+[ 2026-07-23 11:41:46,377 ] root - INFO - Using the trained model to get predictions
+[ 2026-07-23 11:41:46,394 ] root - INFO - Used the trained model to get predictions

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>US Visa Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS inside the static/css folder -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="wordmark">
+        <span>V</span><span>i</span><span>s</span><span>a</span>&nbsp;<span>C</span><span>heck</span>
+      </div>
+    </div>
+
+    <main>
+      <div class="card">
+        <div class="accent-bar"></div>
+        <div class="card-body">
+          <h1>US visa approval estimate</h1>
+          <p class="subtitle">Fill in the applicant and employer details below to get a prediction.</p>
+
+          <form action="/" method="post" novalidate>
+            <div class="grid">
+
+              <div class="field">
+                <select class="control" id="continent" name="continent" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option>Asia</option>
+                  <option>Africa</option>
+                  <option>North America</option>
+                  <option>Europe</option>
+                  <option>South America</option>
+                  <option>Oceania</option>
+                </select>
+                <label for="continent">Continent</label>
+              </div>
+
+              <div class="field">
+                <select class="control" id="education_of_employee" name="education_of_employee" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option>High School</option>
+                  <option>Bachelor's</option>
+                  <option>Master's</option>
+                  <option>Doctorate</option>
+                </select>
+                <label for="education_of_employee">Education of employee</label>
+              </div>
+
+              <div class="field">
+                <select class="control" id="has_job_experience" name="has_job_experience" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+                <label for="has_job_experience">Has job experience</label>
+              </div>
+
+              <div class="field">
+                <select class="control" id="requires_job_training" name="requires_job_training" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+                <label for="requires_job_training">Requires job training</label>
+              </div>
+
+              <div class="field">
+                <input class="control" type="number" id="no_of_employees" name="no_of_employees" min="14500" max="40000" placeholder=" " required>
+                <label for="no_of_employees">Number of employees</label>
+                <div class="hint">Between 14,500 and 40,000</div>
+              </div>
+
+              <div class="field">
+                <select class="control" id="region_of_employment" name="region_of_employment" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option>West</option>
+                  <option>Northeast</option>
+                  <option>South</option>
+                  <option>Midwest</option>
+                  <option>Island</option>
+                </select>
+                <label for="region_of_employment">Region of employment</label>
+              </div>
+
+              <div class="field">
+                <input class="control" type="number" id="prevailing_wage" name="prevailing_wage" min="600" max="70000" placeholder=" " required>
+                <label for="prevailing_wage">Prevailing wage</label>
+                <div class="hint">Between 600 and 70,000</div>
+              </div>
+
+              <div class="field">
+                <select class="control" id="unit_of_wage" name="unit_of_wage" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option>Hour</option>
+                  <option>Week</option>
+                  <option>Month</option>
+                  <option>Year</option>
+                </select>
+                <label for="unit_of_wage">Contract tenure</label>
+              </div>
+
+              <div class="field">
+                <select class="control" id="full_time_position" name="full_time_position" required onchange="this.setAttribute('data-empty', this.value === '')">
+                  <option value="" disabled selected>&nbsp;</option>
+                  <option value="Y">Full time</option>
+                  <option value="N">Part time</option>
+                </select>
+                <label for="full_time_position">Employment type</label>
+              </div>
+
+              <div class="field">
+                <input class="control" type="number" id="company_age" name="company_age" min="15" max="180" placeholder=" " required>
+                <label for="company_age">Age of the company</label>
+                <div class="hint">Between 15 and 180 years</div>
+              </div>
+
+              <div class="field full" style="margin-bottom:0;">
+                <button class="submit" type="submit">Predict visa status</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    {% if context %}
+    <div class="result">
+      <div class="result-inner">
+        <p class="result-label">Visa prediction status</p>
+        <p class="result-value">{{context}}</p>
+      </div>
+    </div>
+    {% endif %}
+  </body>
+</html>
