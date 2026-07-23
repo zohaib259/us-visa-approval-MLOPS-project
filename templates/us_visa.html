@@ -131,12 +131,24 @@
     </main>
 
     {% if context %}
-    <div class="result">
-      <div class="result-inner">
-        <p class="result-label">Visa prediction status</p>
-        <p class="result-value">{{context}}</p>
+    <!-- Floating Prediction Popup -->
+    <div id="prediction-toast" class="toast-popup">
+      <div class="toast-content">
+        <p class="toast-label">Visa prediction status</p>
+        <p class="toast-value">{{ context }}</p>
       </div>
     </div>
+
+    <script>
+      // Automatically hide the popup after 5 seconds (5000 milliseconds)
+      setTimeout(() => {
+        const toast = document.getElementById('prediction-toast');
+        if (toast) {
+          // Add hide class to trigger smooth CSS fade-out animation
+          toast.classList.add('hide');
+        }
+      }, 5000);
+    </script>
     {% endif %}
   </body>
 </html>

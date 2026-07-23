@@ -115,7 +115,8 @@ async def predictRouteClient(request: Request):
         )
         
     except Exception as e:
-        return {"status": False, "error": f"{e}"}
+        return {"status": False, "error": f"{e}"} 
+        
 
 
 if __name__ == "__main__":
