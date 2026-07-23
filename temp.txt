@@ -1,0 +1,1 @@
+URI=557541683693.dkr.ecr.eu-north-1.amazonaws.com/us_visa
