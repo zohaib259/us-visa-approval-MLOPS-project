@@ -34,7 +34,7 @@ class USvisaModel:
         which guarantees that the inputs are in the same format as the training data
         At last it performs prediction on transformed features
         """
-        logging.info("Entered predict method of UTruckModel class")
+        logging.info("Entered predict method of class USvisaModel class")
 
         try:
             logging.info("Using the trained model to get predictions")

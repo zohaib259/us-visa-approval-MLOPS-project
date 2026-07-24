@@ -1,4 +1,3 @@
-
 from asyncio.tasks import all_tasks
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -25,7 +24,7 @@ origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials =True,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
 )     
@@ -60,20 +59,19 @@ class DataForm:
 
 @app.get("/", tags=["authentication"])
 async def index(request: Request):
-
     return templates.TemplateResponse(
-            "us_visa.html",{"request": request, "context": "Rendering"})
+        request=request,
+        name="us_visa.html",
+        context={"context": "Rendering"}
+    )
 
 
 @app.get("/train")
 async def trainRouteClient():
     try:
         train_pipeline = TrainingPipeline()
-
         train_pipeline.run_pipeline()
-
         return Response("Training successful !!")
-
     except Exception as e:
         return Response(f"Error Occurred! {e}")
 
@@ -85,38 +83,32 @@ async def predictRouteClient(request: Request):
         await form.get_usvisa_data()
         
         usvisa_data = USvisaData(
-                                continent= form.continent,
-                                education_of_employee = form.education_of_employee,
-                                has_job_experience = form.has_job_experience,
-                                requires_job_training = form.requires_job_training,
-                                no_of_employees= form.no_of_employees,
-                                company_age= form.company_age,
-                                region_of_employment = form.region_of_employment,
-                                prevailing_wage= form.prevailing_wage,
-                                unit_of_wage= form.unit_of_wage,
-                                full_time_position= form.full_time_position,
-                                )
+            continent=form.continent,
+            education_of_employee=form.education_of_employee,
+            has_job_experience=form.has_job_experience,
+            requires_job_training=form.requires_job_training,
+            no_of_employees=form.no_of_employees,
+            company_age=form.company_age,
+            region_of_employment=form.region_of_employment,
+            prevailing_wage=form.prevailing_wage,
+            unit_of_wage=form.unit_of_wage,
+            full_time_position=form.full_time_position,
+        )
         
         usvisa_df = usvisa_data.get_usvisa_input_data_frame()
-
         model_predictor = USvisaClassifier()
-
         value = model_predictor.predict(dataframe=usvisa_df)[0]
 
-        status = None
-        if value == 1:
-            status = "Visa-approved"
-        else:
-            status = "Visa Not-Approved"
+        status = "Visa-approved" if value == 1 else "Visa Not-Approved"
 
         return templates.TemplateResponse(
-            "us_visa.html",
-            {"request": request, "context": status},
+            request=request,
+            name="us_visa.html",
+            context={"context": status}
         )
         
     except Exception as e:
-        return {"status": False, "error": f"{e}"} 
-        
+        return {"status": False, "error": f"{e}"}
 
 
 if __name__ == "__main__":
